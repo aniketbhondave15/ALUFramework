@@ -1,0 +1,15 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ALUFramework
+@_exported import ALUFramework
+import Foundation
+import Swift
+import _Concurrency
+public class ArthematicOperations {
+  public init()
+  public func addition(firstValue: Swift.Int, secondValue: Swift.Int) -> Swift.Int
+  public func subtraction(firstValue: Swift.Int, secondValue: Swift.Int) -> Swift.Int
+  public func multiplication(firstValue: Swift.Int, secondValue: Swift.Int) -> Swift.Int
+  public func division(firstValue: Swift.Int, secondValue: Swift.Int) -> Swift.Int
+  @objc deinit
+}
